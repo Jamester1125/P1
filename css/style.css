@@ -1,0 +1,50 @@
+/*
+COLORS:
+Orange: #FFB52B
+Light Orange: #FFBE45
+Dark Orange: #D7E6F
+Blue: #004FB2
+Light Blue: #2B88FF
+*/
+
+
+
+body {
+    background-color: none;
+    color:white;
+}
+
+#header {
+    width:100%;
+    background-color:none;
+}
+
+#header > h1 {
+    margin:0;
+    text-align: right;
+    font-family: 'laro', sans-serif;
+    position: realative;
+}
+
+#header > h2 {
+    margin:0;
+    text-align: right;
+    font-family: 'laro', sans-serif;
+    position: realative;
+}
+
+#favorite-things {
+    border-top:5px #B2790F solid;
+    border-bottom:5px #804fb2 solid;
+    
+}
+#favorite-things ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      margin:0;
+      padding: 40px;
+}
+
+
+
