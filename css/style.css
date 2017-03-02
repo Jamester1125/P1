@@ -46,5 +46,11 @@ body {
       padding: 40px;
 }
 
-
+#favorite-things > .row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#favorite-things > .row > h3 {
+    text-align: wrap;
+}
 
