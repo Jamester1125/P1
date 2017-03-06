@@ -8,49 +8,138 @@ Light Blue: #2B88FF
 */
 
 
-
-body {
-    background-color: none;
-    color:white;
+#html {
+    background-color: aqua;
 }
-
+#body {
+    background-color: cyan;
+    color:#004FB2;
+}
+.set {
+    /* max-width: 960px;*/
+}
 #header {
     width:100%;
     background-color:none;
+    border-bottom: 5;
 }
 
 #header > h1 {
-    margin:0;
+    margin: 0;
     text-align: right;
     font-family: 'laro', sans-serif;
     position: realative;
+        transform: trnaslateY(50%);
 }
-
 #header > h2 {
-    margin:0;
+    margin: 0;
     text-align: right;
-    font-family: 'laro', sans-serif;
     position: realative;
+        transform: trnaslateY(5);
+}
+.row > h4 {
+    text-align: center;
+}
+.row {
+    margin-right: 15px
+    margin-left: 15px;
+}
+#main-content-wrapper  .image-content {
+    text-align: center;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.imgae-content {
+    margin: auto;
+}
+.image-content > img {
+    max-width: 200px;
+    border-radius:0;
+    border: 4px #2b88ff solid;
+    margin: auto;
 }
 
+.image-content > img > xbox.jpg {
+    text-align: left;
+    
+}
+.image-content > img > realmadrid.png {
+    text-align: center;
+}
+.image-content > img > snapchat.png {
+    text-align: right;
+}
+
+#main-content-wrapper article {
+
+}
+
+#main-content-wrapper article h2 {
+   text-align: center;
+}
+#main-content-wrapper article p {
+    max-width: 300px;
+    margin:0 auto;
+}
+#main-content-wrapper #skills {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+#main-content-wrapper #skills span {
+    font-weight: 400;
+}
+#aside-content-wrapper {
+    background-color:#fff;
+   margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+div {
+    display: block;
+}
+aside-right {
+    margin: 0 50px 0 8px;
+}
+#aside-right h3 {
+    text-align: center;
+}
+#Latest-work {
+    list-style-type: none;
+}
+#Latest-work > li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+#Latest-work > li:before {
+    content:'';
+    border-color: transparent #008eef;
+    border-style: solid;
+    border-width: .35em 0 .35em. 45em;
+    display: block;
+    height:0;
+    width:0;
+    left: -1em;
+    top:.9em;
+    position:relative;
+    position:relative;
+}
 #favorite-things {
     border-top:5px #B2790F solid;
     border-bottom:5px #804fb2 solid;
     
 }
-#favorite-things ul {
+#favorite-things > ul {
       list-style-type: none;
-      display: flex;
+      display: block;
       justify-content: space-around;
       margin:0;
-      padding: 40px;
+      padding: 50px;
 }
 
-#favorite-things > .row {
-    margin-right: 15px;
-    margin-left: 15px;
+.max-width {
+    margin:0 auto;
+    max-width: 960px;
 }
-#favorite-things > .row > h3 {
-    text-align: wrap;
-}
-
