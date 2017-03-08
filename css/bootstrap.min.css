@@ -9,5 +9,15 @@
         margin-right: 15px;
 }
 .container-fluid {
-    border-bottom: 5px black;
+    border-bottom: 5px;
+}
+.col-sm-2 {
+    vertical-align: center;
+}
+.col-sm-8 {
+    vertical-align: center;
+    
+}
+.col-sm-2 {
+    vertical-align: center;
 }
