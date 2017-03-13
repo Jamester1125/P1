@@ -8,30 +8,30 @@ Light Blue: #2B88FF
 */
 
 
-#html {
+html {
     background-color: aqua;
 }
-#body {
-    background-color: cyan;
+body {
+    background-color: aqua;
     color:#004FB2;
 }
 .set {
     /* max-width: 960px;*/
 }
-#header {
+header {
     width:100%;
     background-color:none;
     border-bottom: 5;
 }
 
-#header > h1 {
+header > h1 {
     margin: 0;
     text-align: right;
     font-family: 'laro', sans-serif;
     position: realative;
         transform: trnaslateY(50%);
 }
-#header > h2 {
+header > h2 {
     margin: 0;
     text-align: right;
     position: realative;
@@ -57,7 +57,7 @@ Light Blue: #2B88FF
     display: flex;
 }
 .image-content > img {
-    max-width: 200px;
+    max-width: 400px;
     border-radius:0;
     border: 4px #2b88ff solid;
     margin: auto;
@@ -103,8 +103,8 @@ aside-right {
 }
 
 #favorite-things {
-    border-top:5px #B2790F solid;
-    border-bottom:5px #804fb2 solid;
+    border-top: 5px #66d7f1 solid;
+    border-bottom: 5px #69cdfd solid;
    
 }
 #favorite-things > ul {
@@ -126,6 +126,7 @@ aside-right {
 img {
     display: block;
    margin: auto;
+    font-size: 400;
 }
 p {
     font-size: 48px;
