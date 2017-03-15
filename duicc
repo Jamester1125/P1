@@ -1,0 +1,80 @@
+        <!DOCTYPE html>
+<html>
+ 
+    <head>
+        <meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, max-scale=1, user-scalable=no">
+                <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+                <!--link to css files or font files-->
+            <link rel="stylesheet" type="text/css"href="css/style.css">
+        <link rel="stylesheet" type="text/css"href="css/bootstrap.min.css">
+        <script href='js/bootstrap.min.js'></script>
+        <script href='js/jquery.min.js'></script>
+        
+    </head>
+       <body>
+           <div class='container-fluid'>
+                <div class='row'>
+                    <header id="header">
+                    
+                        <h1>James Newberry</h1>
+                        <h2>It's a website!!</h2>
+                        
+                    </header>
+                    
+                </div>   
+           
+                </div>
+           
+          
+           <div class='row'>
+                <img  id='image' src='img/game.jpg'>
+           </div>     
+          
+              
+              <div id='favorite-things'>
+                <div class="row">
+                    <div class='image-content'>
+                        
+                    <img src='img/xbox.jpg' data-toggle="modal" data-target="#Xbox">
+                  
+                    <img src="https://pbs.twimg.com/profile_images/545649857365422080/hQBPK8Ml.png"/img/realmadrid.png>
+                  
+                    <img src='img/snapchat.png'>
+                  
+                    </div> 
+                    
+                  </div>
+
+                </div>
+           
+           
+           <!-- Modal -->
+<div class="modal fade" id="Xbox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Xbox</h4>
+      </div>
+      <div class="modal-body">
+        <p>Xbox is one of my favorite brand of video game consols. I have grown up playing xbox and it was a blast. I did not get to play much of the first Xbox but i made up the time when the Xbox 360 came out.</p>
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+              
+              
+
+       
+    
+       </body>
+    
+     
+</html>
