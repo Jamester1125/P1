@@ -137,3 +137,10 @@ p {
 .row > image > .col-sm-10 {
     text-align: right;
 }
+#idubbbz {
+    width: 70px;
+    margin-left: 100px;
+    border-radius:50px;
+    border: 2px black solid;
+    
+}
